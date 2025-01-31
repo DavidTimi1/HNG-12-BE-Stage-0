@@ -13,7 +13,7 @@ def get_info():
     # Replace the placeholder values below with your actual data
     response = {
         "email": "duwagbale07@gmail.com",  # Your registered Slack email
-        "datetime": datetime.utcnow().isoformat(),  # Current datetime in ISO 8601 format
+        "current_datetime": datetime.utcnow().isoformat(),  # Current datetime in ISO 8601 format
         "github_url": "https://github.com/DavidTimi1/HNG-12-BE-Stage-0"  # GitHub repository URL
     }
     return jsonify(response)
