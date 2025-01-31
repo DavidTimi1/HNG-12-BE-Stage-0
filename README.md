@@ -15,7 +15,7 @@ This Flask app provides a single route (`/api`) that returns a JSON response con
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/DavidTimi1/HNG-12-BE-Stage-0.git
    cd your-repository
    ```
 
@@ -48,14 +48,14 @@ Returns a JSON response with the following structure:
 ```json
 {
    "email": "duwagbale07@gmail.com",
-   "github_repo": "https://github.com/DavidTimi1/HNG-12-BE-STAGE-0",
-   "current_time": "2025-01-30T12:34:56+00:00"
+   "github_url": "https://github.com/DavidTimi1/HNG-12-BE-STAGE-0",
+   "current_datetime": "2025-01-30T12:34:56+00:00"
 }
 ```
 
 - `email`: The email address associated with the project.
-- `github_repo`: URL of the GitHub repository for this project.
-- `current_time`: Current date and time in ISO 8601 format.
+- `github_url`: URL of the GitHub repository for this project.
+- `current_datetime`: Current date and time in ISO 8601 format.
 
 ## CORS
 
